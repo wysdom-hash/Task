@@ -115,7 +115,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"task_2.sol": "Task2"
+			"task/task_2.sol": "Task2"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -129,7 +129,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"task_2.sol": {
+		"task/task_2.sol": {
 			"keccak256": "0xc438de98bc51fcff4ef24982358cd015d2a7da59d9051e704f7124aa1dd39993",
 			"license": "MIT",
 			"urls": [

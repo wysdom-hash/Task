@@ -1,0 +1,131 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "data",
+						"type": "string"
+					}
+				],
+				"name": "addToList",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_data_1",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_data_2",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "_data_3",
+						"type": "bool"
+					}
+				],
+				"name": "setSubList",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sublist",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "data_1",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "data_2",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "data_3",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "viewList",
+				"outputs": [
+					{
+						"internalType": "string[]",
+						"name": "",
+						"type": "string[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "viewSubList",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SimplesStorage.sol": "simpleStorage"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SimplesStorage.sol": {
+			"keccak256": "0x83491588c2b0e67a16ba91a1afa353f0cca68f4ed736237cd605cb79af34a4cf",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://25ae08cba8c76502af03591539ee774fc4f8af92d9b93889ee1db6f3328f18b3",
+				"dweb:/ipfs/QmakrRwetnkfo2ujSjapBDTRujZbpZupHNoycxNbUmheMq"
+			]
+		}
+	},
+	"version": 1
+}
